@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #17515f, #8cb9be);
+}
+
+.inner-box {
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background: linear-gradient(to top left, #ffffffff, #ffffff33);
+    backdrop-filter: blur(8px);
+    border-radius: 9px;
+    box-shadow: 2px 2px 5px #041724;
+    z-index: 2;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #212121;
+}
+
+header p {
+    font-size: 1rem;
+    color: #464545;
+}
+
+.login-body {
+    margin: 20px 0;
+}
+
+.login-body p {
+    margin: 10px 0;
+}
+
+.login-body p label {
+    display: block;
+    font-weight: bold;
+}
+
+.login-body p input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+.login-body p input[type="submit"] {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.login-body p input[type="submit"]:hover {
+    background-color: #2773a5;
+}
+
+.login-footer {
+    color: #555;
+    text-align: center;
+}
+
+.login-footer a {
+    color: #0a6392;
+}
